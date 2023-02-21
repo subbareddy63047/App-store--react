@@ -321,7 +321,7 @@ class AppStore extends Component {
     const {isActive, searchInput} = this.state
     const filteredApps = this.categoryOfItems()
     const modified = filteredApps.filter(each =>
-      each.appName.includes(searchInput),
+      each.appName.toLowerCase().includes(searchInput.toLowerCase()),
     )
     return (
       <div className="main-container">
