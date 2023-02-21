@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.each-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 21%;
+  width: 21%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+.app-image {
+  padding-top: 10px;
+  height: 80%;
+  width: 80%;
+}
+.app-name {
+  font-size: 50%;
+  font-weight: bold;
+  font-family: 'Bree serif';
+}
